@@ -1,0 +1,43 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 21/05/2020 19:52
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-rain:before { content: "\f100"; }
+.flaticon-brands-and-logotypes:before { content: "\f101"; }
+.flaticon-rain-drops:before { content: "\f102"; }
+.flaticon-communications:before { content: "\f103"; }
+.flaticon-avatar:before { content: "\f104"; }
+.flaticon-business-and-finance:before { content: "\f105"; }
+.flaticon-education:before { content: "\f106"; }
+.flaticon-map:before { content: "\f107"; }
+.flaticon-graph:before { content: "\f108"; }
+.flaticon-checklist:before { content: "\f109"; }
+.flaticon-risk:before { content: "\f10a"; }

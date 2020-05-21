@@ -1,0 +1,50 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/09/2018 15:18
+  	*/
+
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Flaticon.woff2") format("woff2"),
+        url("../fonts/Flaticon.woff") format("woff"),
+        url("../fonts./fonts/Flaticon.ttf") format("truetype"),
+        url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+    
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-rain:before { content: "\f100"; }
+.flaticon-brands-and-logotypes:before { content: "\f101"; }
+.flaticon-rain-drops:before { content: "\f102"; }
+.flaticon-communications:before { content: "\f103"; }
+.flaticon-avatar:before { content: "\f104"; }
+.flaticon-business-and-finance:before { content: "\f105"; }
+.flaticon-education:before { content: "\f106"; }
+.flaticon-map:before { content: "\f107"; }
+.flaticon-graph:before { content: "\f108"; }
+.flaticon-checklist:before { content: "\f109"; }
+.flaticon-risk:before { content: "\f10a"; }
