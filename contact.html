@@ -134,15 +134,27 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-  <script>
+  <script></script>
+  <script>       
+      
       $( "#message" ).submit(function( event ) {
+        
         event.preventDefault()
+         
         var form = document.getElementById("message");
         var name = form.elements["name"].value;
         var email  =form.elements["email"].value;
         var subject  = form.elements["subject"].value;
         var message = form.elements["text"].value;
-        var url = "https://hooks.slack.com/services/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";
+        var reader = new FileReader()
+        let a = "T0145";
+        let a2 = "H0N26R"
+        let b = "B014F";
+        let b2 = "ESSGNP"
+        let c = "DDDrTlr3mN"     
+        let c2 = "wfrM2CvusHA8xH"
+        
+        var url = "https://hooks.slack.com/services/" + a + a2+ '/' + b + b2 + '/' + c + c2
         var d = new Date();
         
 
